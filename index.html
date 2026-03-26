@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox vs Grid Demo</title>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="hero">
+        <h1>Flexbox and CSS Grid Demo</h1>
+        <p>
+          This page shows a simple Flexbox example and a CSS Grid example to
+          demonstrate the difference between one-dimensional and two-dimensional
+          layout methods.
+        </p>
+      </header>
+
+      <!-- Flexbox Section -->
+      <!-- This section demonstrates a one-dimensional layout using Flexbox -->
+      <section class="demo-section">
+        <h2>Flexbox Example</h2>
+        <p class="section-text">
+          This example uses Flexbox for a navigation-style row. Flexbox is
+          useful when arranging items in one direction, either as a row or a
+          column.
+        </p>
+
+        <nav class="flex-nav">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Contact</a>
+        </nav>
+      </section>
+
+      <!-- Grid Section -->
+      <!-- This section demonstrates a two-dimensional layout using CSS Grid -->
+      <section class="demo-section">
+        <h2>CSS Grid Example</h2>
+        <p class="section-text">
+          This example uses CSS Grid for a card layout. Grid is useful when
+          controlling both rows and columns at the same time.
+        </p>
+
+        <div class="grid-layout">
+          <article class="card">
+            <h3>Card One</h3>
+            <p>This is the first grid card.</p>
+          </article>
+
+          <article class="card">
+            <h3>Card Two</h3>
+            <p>This is the second grid card.</p>
+          </article>
+
+          <article class="card">
+            <h3>Card Three</h3>
+            <p>This is the third grid card.</p>
+          </article>
+
+          <article class="card">
+            <h3>Card Four</h3>
+            <p>This is the fourth grid card.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
